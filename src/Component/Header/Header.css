@@ -1,0 +1,33 @@
+.a1 {
+
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+    background: linear-gradient(135deg, #ff00d2, #fed90f, #00a2ff, #09f1b8, #ff00d2, #fed90f, #00a2ff, #09f1b8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%, 300%;
+    animation: gradient 8s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .a1 {
+        font-size: 30px;
+    }
+}

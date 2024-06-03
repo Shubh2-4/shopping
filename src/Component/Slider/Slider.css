@@ -1,0 +1,25 @@
+.carousel-item img {
+  max-width: 100% !important;
+  height: 600px !important;
+  margin: auto !important;
+
+}
+
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 100% !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider {
+    padding: 0px 10px !important;
+    max-width: 90% !important;
+    margin: auto !important;
+
+  }
+
+  .carousel-item img {
+    height: auto !important;
+  }
+}

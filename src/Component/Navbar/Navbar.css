@@ -1,0 +1,18 @@
+@media only screen and (max-width: 480px) {
+  .input-group {
+    padding: 10px 0px !important;
+    max-width: 100% !important;
+  }
+
+  .offcanvas {
+    width: auto !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .from {
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+  }
+
+}

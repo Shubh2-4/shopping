@@ -1,0 +1,43 @@
+/* .a2::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+/* .a2 {
+    display: grid !important;
+} */
+
+.a2 img {
+
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 20px !important;
+
+    cursor: pointer;
+
+
+}
+
+@media (max-width:600px) {
+    .a2 {
+   
+        display: inline;
+        margin-right: 10px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .a3 {
+        display: block !important;
+        margin-top: 0% !important;
+        margin-right: 0px !important;
+    }
+
+
+}
+
+.a3 {
+    float: inline-end;
+    margin-top: -310px;
+    margin-right: 60px;
+}
+
